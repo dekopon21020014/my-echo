@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
+	"fmt"
 )
 
 func main() {
@@ -13,6 +14,7 @@ func main() {
 	})
 
 	e.Logger.Fatal(e.Start(":1323"))
+	fmt.Printf("Hello")
 }
 
 func ping() string {
