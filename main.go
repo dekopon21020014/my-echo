@@ -14,7 +14,8 @@ func main() {
 	})
 
 	e.Logger.Fatal(e.Start(":1323"))
-	fmt.Printf("Hello World\n")
+	fmt.Printf("Hello")
+	fmt.Printf("world\n")
 }
 
 func ping() string {
